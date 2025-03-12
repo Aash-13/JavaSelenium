@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="42.027" tests="3" skipped="0" failures="2" errors="0" timestamp="2025-03-08T04:42:11.752286800Z">
+<testcase classname="" name="To Check Title of the application" time="19.571">
+<system-out><![CDATA[
+Given User Opens the Browser................................................passed
+And User Navigates to the "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" Webpage.passed
+Then User verifies the title of the Webpage.................................passed
+And User Closes the Browser.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="To Check Page1 Login Funionality - #1.1" time="9.322">
+<failure type="java.lang.AssertionError" message="expected [Ankit Singh] but found [manda user]">
+<![CDATA[java.lang.AssertionError: expected [Ankit Singh] but found [manda user]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinition.Scenario2.user_verifies_profile_account(Scenario2.java:33)
+	at ✽.User verifies ProfileAccount(file:///C:/Users/Admin/eclipse-workspace/PageFactoryCode/src/test/resources/Feature/Sample1.feature:14)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User Opens the Browser................................................passed
+And User Navigates to the "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" Webpage.passed
+When User Enters 'Admin' UserName...........................................passed
+And User Enters 'admin123' Password.........................................passed
+Then User Clicks on Login Button............................................passed
+Then User verifies ProfileAccount...........................................failed
+And User Clicks on One of the Menu Displayed................................skipped
+And User Closes the Browser.................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="" name="To Check Page1 Login Funionality - #1.2" time="12.689">
+<failure type="java.lang.AssertionError" message="expected [Ankit Singh] but found [manda user]">
+<![CDATA[java.lang.AssertionError: expected [Ankit Singh] but found [manda user]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinition.Scenario2.user_verifies_profile_account(Scenario2.java:33)
+	at ✽.User verifies ProfileAccount(file:///C:/Users/Admin/eclipse-workspace/PageFactoryCode/src/test/resources/Feature/Sample1.feature:14)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User Opens the Browser................................................passed
+And User Navigates to the "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" Webpage.passed
+When User Enters 'Admin' UserName...........................................passed
+And User Enters 'admin123' Password.........................................passed
+Then User Clicks on Login Button............................................passed
+Then User verifies ProfileAccount...........................................failed
+And User Clicks on One of the Menu Displayed................................skipped
+And User Closes the Browser.................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

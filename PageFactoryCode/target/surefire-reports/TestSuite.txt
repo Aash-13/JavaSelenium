@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.656 s <<< FAILURE! - in TestSuite
+TestRunner.DemoNG.runScenario["To Check Page1 Login Funionality", "Unknown"](1)  Time elapsed: 8.728 s  <<< FAILURE!
+java.lang.AssertionError: expected [Ankit Singh] but found [manda user]
+
