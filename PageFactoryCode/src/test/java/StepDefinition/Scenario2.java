@@ -30,7 +30,7 @@ public class Scenario2 {
 	@Then("User verifies ProfileAccount")
 	public void user_verifies_profile_account() throws Exception {
 	    // Write code here that turns the phrase above into concrete actions
-		Assert.assertEquals(Page2.UserCheck(), "Ankit Singh");
+		Assert.assertEquals(Page2.UserCheck(), "Vikas Alanzi");
 	}
 	
 	@And("User Clicks on One of the Menu Displayed")
